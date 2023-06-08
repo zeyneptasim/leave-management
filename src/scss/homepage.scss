@@ -1,0 +1,65 @@
+.custom-datepicker {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+  }
+
+  .custom-datepicker .Calendar {
+    width: 300px;
+    max-width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .custom-datepicker .Calendar .DayPicker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Month {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 8px;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Weekday {
+    display: table-cell;
+    padding: 8px;
+    text-align: center;
+    color: #888888;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Weekday abbr[title] {
+    border-bottom: none;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Day {
+    display: table-cell;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Day--today {
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+    background-color: #0fbcf9;
+    color: #ffffff;
+  }
+
+  .custom-datepicker .Calendar .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+    background-color: #0891b2;
+  }
+  .profile-page{
+    margin-bottom: 40px;
+
+}
+.profile{
+    padding-bottom: 40px;
+}

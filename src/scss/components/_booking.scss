@@ -1,0 +1,204 @@
+/* Import the default datepicker CSS */
+@import '~react-datepicker/dist/react-datepicker.css';
+
+/* Custom styles for the datepicker */
+.react-datepicker {
+  font-family: Arial, sans-serif !important;
+}
+
+.react-datepicker__header {
+  background-color: #06409d !important;
+  border-bottom: none !important;
+  color: #fff !important;
+  padding: 10px !important;
+}
+.react-datepicker__navigation--next,.react-datepicker__navigation--previous{
+    top: 20px !important;
+    color: #fff !important;
+}
+.react-datepicker__day-names{
+    display: flex !important;
+    justify-content: space-between !important;
+    .react-datepicker__day-name{
+        color: #fff !important;
+    }
+}
+.success-message{
+  text-align: center;
+  font-weight: bold;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+
+.react-datepicker__month {
+  margin: 0 !important;
+  padding: 10px !important;
+  list-style: none !important;
+}
+
+.react-datepicker__week {
+  display: grid  !important;
+  grid-template-columns: repeat(7, 1fr) !important;
+  margin-bottom: 5px !important;
+}
+
+.react-datepicker__day {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 8px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: #06409d !important;
+  color: #fff !important;
+  display: flex !important;
+}
+.react-datepicker__month-container{
+    width: 380px !important;
+}
+.react-datepicker__day--today {
+  font-weight: bold !important;
+  border: 1px solid #06409d !important;
+  border-radius: 50% !important;
+}
+
+.react-datepicker__day--outside-month {
+  color: #ccc !important;
+}
+
+.react-datepicker__input-container {
+  position: relative !important;
+}
+
+.react-datepicker__input-container input {
+  width: 100% !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  border: 1px solid #fff !important;
+  border-radius: 30px !important;
+  -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.46); 
+  box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.46);
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none !important;
+  border-color: #06409d !important;
+}
+
+.reservation-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+  
+.reservation-form h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+  
+.reservation-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.reservation-form input,
+.reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.46); 
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.46);
+    border-radius: 30px;
+}
+  
+.reservation-form button[type="submit"] {
+    background-color: #06409d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.reservation-form button[type="submit"]:hover {
+    background-color: #06409d;
+}
+
+.reservation-form .error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.profile{
+  padding-bottom: 40px;
+}
+ 
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+footer{
+  background-color: #242424;
+  color: #fff;
+  font-weight: bold;
+}
+.homepage_row{
+  text-align: center;
+  color: #fff;
+  button{
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    padding: 15px 35px;
+    display: blocks;
+    -webkit-transition: color 0.3s,background 0.3s ease-in-out;
+    transition: color 0.3s,background 0.3s ease-in-out;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+.btn-primary{
+  background-color: #06054b !important; 
+  border-color: #06054b  !important;
+  transition: color .3s ease-in-out;
+  &:hover{
+    background-color: #06409d !important;
+    border-color: #06409d !important;
+  }
+}
+.userpage{
+  color: #fff;
+  padding-bottom: 50px;
+  .chart{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 16px;
+    margin: 15px 0;
+  }
+}
